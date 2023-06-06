@@ -1,4 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+}
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding:1em;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
 }
